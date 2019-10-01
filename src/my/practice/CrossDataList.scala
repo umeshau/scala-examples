@@ -12,5 +12,11 @@ object CrossDataList {
       ll = ll ::: i :: Nil  //::: concatenation of two lists
     }
     println(ll)
+
+    //cross join
+    for(i <- l; j <- l2){
+      println("(" + i + "," + j + ")")
+    }
+
   }
 }
